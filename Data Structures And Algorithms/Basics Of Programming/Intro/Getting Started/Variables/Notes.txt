@@ -1,0 +1,31 @@
+Hello there. Let us quickly recap what we discussed in the video. Along the way, we may learn something new as well.
+          
+      RECAP:
+          1. To declare a variable you need to know it's data type as well.
+          2. When you declare a variable, say, int x = 10; a location in computer's RAM is named x and 10 is stored in it.
+          3. / gives quotient and % gives remainder.
+          4. There is no BODMAS. *, %, / have equal priority and higher than + and - which are equal to each other.
+          5. Among operators with equal prirority, generally the one on the left is executed first.
+          6. use parenthesis to over-ride order of execution of operators.
+          
+      FACTS:
+          1. There is no operator for exponentiation. 2 ^ 3 is not 8. This is XOR operator. We'll do it later. 
+          2. To do exponentiation use Math.pow function. 
+          
+      EXERCISE:
+          1. Try this code in the codebook and meditate on it.
+  
+                           System.out.println(Math.pow(2, 3));
+  
+          2. Try this code in the codebook and meditate on it.
+  
+                           int exp = (int)Math.pow(2, 3);
+                           System.out.println(exp);
+  
+          3. Compare the ouput of above two and think why the above code has a (int) before Math.pow and what it does?
+       
+      ADVICE:
+          1. Reminder on plan, focus and meditate. 
+          2. Plan to avoid distractions, make it less likely to be distracted. 
+          3. Focus while in the activity. Try hard to not leave it and do something else till the planned activity is done. 
+          4. Meditate to stay mindful of the wandering mind. Keep bringing it back to where it should be.

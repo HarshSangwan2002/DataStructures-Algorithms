@@ -1,0 +1,19 @@
+Hello there. Let us quickly recap what we discussed in the video. Along the way, we may learn something new as well.
+          
+     RECAP:
+          1. System.out.print and System.out.println are the two commands which are used in JAVA for printing output to console.
+          2. 'System.out.print' command prints to the console while 'System.out.println' prints and then moves to next line as well.
+          3. '/n' can also be used to move to the next line. 
+         4. System.out.println does nothing more than printing the message and then printing '/n' after that.
+          
+      FACTS:
+          Printing numbers does not requires double inverted commas. Try this and find out yourself.
+          System.out.print("10") and System.out.print(10) will have the same output.
+          
+      EXERCISE:
+          Now that we know what it takes to print a right angled triangle, let us meditate on what changes will be required to print an equilateral triangle. Try the code in your code-book and make notes in your notebook. 
+       
+      ADVICE:
+          1. Plan. Plan to avoid distractions. 
+          2. Focus. Try hard to stay in the activity.
+          3. Meditate. Stay mindful of what your are doing. Bring yourself back if you are distracted.
