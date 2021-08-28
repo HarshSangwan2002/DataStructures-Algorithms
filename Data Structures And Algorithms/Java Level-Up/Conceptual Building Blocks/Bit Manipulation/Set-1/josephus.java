@@ -1,24 +1,21 @@
 import java.util.*;
 
-public class josephus_2 {
+public class josephus {
 
     public static int power(int n) {
 
         int i = 1;
 
-        while (i * 2 <= n) {
+        while (i * 2 <= n)
             i *= 2;
-        }
 
         return i;
     }
 
     public static int solution(int n) {
-        // write your code here
 
-        int hp2 = power(n);
-        int l = n - hp2;
-
+        int p = power(n);
+        int l = n - p;
         return 2 * l + 1;
     }
 
@@ -26,6 +23,7 @@ public class josephus_2 {
         Scanner scn = new Scanner(System.in);
         int n = scn.nextInt();
         System.out.println(solution(n));
+
         scn.close();
     }
 

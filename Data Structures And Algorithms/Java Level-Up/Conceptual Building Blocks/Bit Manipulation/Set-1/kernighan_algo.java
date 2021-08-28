@@ -7,16 +7,16 @@ public class kernighan_algo {
         int n = scn.nextInt();
 
         // write your code here
-        int ct = 0;
         int mask = (n & -n);
+        int count = 0;
 
         while (n != 0) {
             n = n - mask;
             mask = (n & -n);
-            ct++;
+            count++;
         }
 
-        System.out.println(ct);
+        System.out.print(count);
         scn.close();
     }
 

@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class basic_bits {
+public class all_oprtors {
 
     public static void main(String[] args) {
         Scanner scn = new Scanner(System.in);
@@ -20,13 +20,13 @@ public class basic_bits {
         System.out.println(n & mask2);
         System.out.println(n ^ mask3);
 
-        if ((n & mask4) == 0) {
-            System.out.println("false");
-        }
+        int c = (n & mask4);
 
-        else {
+        if (c == 0)
+            System.out.println("false");
+
+        else
             System.out.println("true");
-        }
 
         scn.close();
     }
